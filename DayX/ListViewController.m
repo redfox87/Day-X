@@ -1,23 +1,29 @@
 //
-//  ViewController.m
+//  ListViewController.m
 //  DayX
 //
 //  Created by Caleb Hicks on 4/10/15.
 //  Copyright (c) 2015 DevMountain. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ListViewController.h"
+#import "ListTableViewDataSource.h"
+#import "DetailedViewController.h"
+@interface ListViewController ()
 
-@interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ListViewController
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
